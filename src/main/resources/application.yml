@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+agentgateway:
+  url: https://highmarkagentgateway.cloud.run
+  token: ""
+  timeout-seconds: 60
+
+spring:
+  application:
+    name: mcp-monorepo-app
+  main:
+    banner-mode: console
+
